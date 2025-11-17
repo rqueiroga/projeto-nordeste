@@ -1,0 +1,86 @@
+
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <title>Projeto Nordeste - Educação e Renda</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f4f4; }
+        .container { background: white; padding: 30px; border-radius: 10px; max-width: 800px; margin: 0 auto; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; text-align: center; }
+        h3 { color: #34495e; margin-top: 30px; }
+        p { line-height: 1.6; color: #555; }
+        img { max-width: 100%; border: 1px solid #ccc; margin-top: 20px; display: block; margin-left: auto; margin-right: auto; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background-color: #34495e; color: white; }
+        tr:nth-child(even) { background-color: #f9f9f9; } /* Linhas alternadas */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Análise: Impacto da Educação na Renda (Nordeste)</h1>
+        <p><strong>Fonte dos Dados:</strong> IBGE - PNAD Contínua 2023 (Série Consolidada).</p>
+        <p>O gráfico e a tabela abaixo demonstram a correlação entre a taxa de analfabetismo e a renda domiciliar per capita nos estados do Nordeste.</p>
+        
+        <img src="grafico_analise.png" alt="Gráfico de Dispersão">
+        
+        <h3>Tabela Detalhada dos Dados (Ordenada por Analfabetismo):</h3>
+        <table class="dataframe tabela">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Estado</th>
+      <th>Analfabetismo</th>
+      <th>Renda</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>RN</td>
+      <td>9.5%</td>
+      <td>R$ 1.625</td>
+    </tr>
+    <tr>
+      <td>Pernambuco</td>
+      <td>9.5%</td>
+      <td>R$ 1.314</td>
+    </tr>
+    <tr>
+      <td>Ceará</td>
+      <td>10.6%</td>
+      <td>R$ 1.373</td>
+    </tr>
+    <tr>
+      <td>Sergipe</td>
+      <td>10.7%</td>
+      <td>R$ 1.393</td>
+    </tr>
+    <tr>
+      <td>Bahia</td>
+      <td>10.9%</td>
+      <td>R$ 1.139</td>
+    </tr>
+    <tr>
+      <td>Maranhão</td>
+      <td>12.8%</td>
+      <td>R$ 945</td>
+    </tr>
+    <tr>
+      <td>Paraíba</td>
+      <td>13.6%</td>
+      <td>R$ 1.183</td>
+    </tr>
+    <tr>
+      <td>Piauí</td>
+      <td>13.9%</td>
+      <td>R$ 1.110</td>
+    </tr>
+    <tr>
+      <td>Alagoas</td>
+      <td>14.1%</td>
+      <td>R$ 1.110</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+</body>
+</html>

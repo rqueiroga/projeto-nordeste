@@ -2,7 +2,7 @@
 
 > Um estudo estatístico sobre a correlação entre a taxa de analfabetismo e a renda média domiciliar nos estados do Nordeste brasileiro.
 
-##  [Clique aqui para ver o Relatório Interativo (Site)](https://rqueiroga.github.io/projeto-nordeste/projeto_analise_nordeste.html)
+##  [Clique aqui para ver o Relatório Interativo (Site)](https://rqueiroga.github.io/projeto-nordeste/)
 
 ---
 

@@ -13,7 +13,7 @@ O Nordeste enfrenta desafios históricos de desigualdade. O objetivo deste proje
 * **Python 3.12**
 * **Pandas** (Tratamento e organização dos dados)
 * **Matplotlib** (Visualização de dados)
-* **HTML/CSS** (Automação de relatórios web)
+* **HTML/CSS** 
 
 ### Principais Resultados
 Os dados da PNAD Contínua (IBGE 2023) revelaram uma forte correlação negativa:
